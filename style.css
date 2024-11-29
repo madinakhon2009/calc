@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(  rgb(45, 240, 6) , #03c5bb);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body *{
+    margin-top: 10px;
+}
+div{
+    padding: 30px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid greenyellow;
+    border-radius: 50%;
+}
+div h1{
+    color: blueviolet;
+    font-size: 50px;
+}
+div input{
+    height: 25px;
+    background-color: #03c5bbd3;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    padding-left: 10px;
+}
+div button{
+    background-color: #03c5bbd3;
+    border-radius: 20px;
+    border: 1px solid blueviolet;
+    padding-left: 10px;
+    color: gray;
+    height: 25px;
+    
+}
